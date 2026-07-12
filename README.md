@@ -1,16 +1,49 @@
-# React + Vite
+# EnergyHome AI — React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Plateforme web d'analyse énergétique immobilière (DPE) construite avec React et Vite. Intègre un simulateur de classe énergétique en lien avec la loi Climat et Résilience (interdiction de location des biens classés G depuis 2025, F en 2028).
 
-Currently, two official plugins are available:
+## 🌐 Démo en ligne
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[https://ryandepret.github.io/energyhome-ai-react/](https://ryandepret.github.io/energyhome-ai-react/)
 
-## React Compiler
+## Technologies utilisées
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- CSS Modules
+- Font Awesome
 
-## Expanding the ESLint configuration
+## Fonctionnalités
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Landing page responsive avec hero immersif
+- Simulateur DPE interactif
+- Design glassmorphisme moderne
+- Architecture en composants React
+
+## Auteur
+
+Ryan Depret — [LinkedIn](https://www.linkedin.com/in/ryan-depret-416868321/)# EnergyHome AI — React
+
+Plateforme web d'analyse énergétique immobilière (DPE) construite avec React et Vite. Intègre un simulateur de classe énergétique en lien avec la loi Climat et Résilience (interdiction de location des biens classés G depuis 2025, F en 2028).
+
+## 🌐 Démo en ligne
+
+[https://ryandepret.github.io/energyhome-ai-react/](https://ryandepret.github.io/energyhome-ai-react/)
+
+## Technologies utilisées
+
+- React 19
+- Vite
+- CSS Modules
+- Font Awesome
+
+## Fonctionnalités
+
+- Landing page responsive avec hero immersif
+- Simulateur DPE interactif
+- Design glassmorphisme moderne
+- Architecture en composants React
+
+## Auteur
+
+Ryan Depret — [LinkedIn](https://www.linkedin.com/in/ryan-depret/)
