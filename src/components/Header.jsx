@@ -1,17 +1,20 @@
+import { Link } from 'react-router-dom'
 import './Header.css'
 
 function Header({ titre }) {
   return (
     <header className="header">
-      <span>{titre}</span>
+      <Link to="/">
+        <span>{titre}</span>
+      </Link>
       <nav>
         <ul className="nav-links">
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#">À Propos</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><Link to="/">Accueil</Link></li>
+          <li><Link to="/about">À Propos</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
-      <a href="#" className="nav-btn">Contactez-nous</a>
+      <Link to="/contact" className="nav-btn">Contactez-nous</Link>
     </header>
   )
 }
